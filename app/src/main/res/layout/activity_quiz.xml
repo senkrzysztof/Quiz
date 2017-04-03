@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xenon.quiz.QuizActivity">
+
+    <ScrollView
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="395dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Zgadnij co to"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="250dp" />
+
+            <ImageView
+                android:id="@+id/ImageViewDzik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dzik_blurred"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="74dp" />
+
+            <RadioGroup
+                android:id="@+id/RG1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.11"
+                    android:text="Swinia" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.15"
+                    android:text="Byk" />
+
+                <RadioButton
+                    android:id="@+id/DzikCorrect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.17"
+                    android:text="Dzik" />
+
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/imageViewPies"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                app:srcCompat="@drawable/pies_blurred" />
+
+            <RadioGroup
+                android:id="@+id/RG2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.32"
+                    android:text="Kot" />
+
+                <RadioButton
+                    android:id="@+id/PiesCorrect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.29"
+                    android:text="Pies" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bocian" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/imageViewKot"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_weight="6.29"
+                app:srcCompat="@drawable/kot_blurred" />
+
+            <RadioGroup
+                android:id="@+id/RG3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Wilk" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kaczka" />
+
+                <RadioButton
+                    android:id="@+id/KotCorrect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kot" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/imageViewKrowa"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/krowa_blurred" />
+
+            <RadioGroup
+                android:id="@+id/RG4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/KrowaCorrect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Krowa" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pies" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bocian" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/imageViewKura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/kura_blurred" />
+
+            <RadioGroup
+                android:id="@+id/RG5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dzik" />
+
+                <RadioButton
+                    android:id="@+id/KuraCorrect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kura" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Gęś" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/imageViewLis"
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/lis_blurred" />
+
+            <RadioGroup
+                android:id="@+id/RG6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/LisCorrect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Lis" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pies" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Wydra" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sprawdz!" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
